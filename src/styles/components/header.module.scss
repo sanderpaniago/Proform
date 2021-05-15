@@ -1,0 +1,52 @@
+.headerContainer {
+    background: var(--blue-400);
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+    .btn {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+
+        a {
+            cursor: pointer;
+            transition: .3s;
+            &:first-child:hover {
+                transform: rotate(360deg)
+            }
+
+            &:last-child {
+                img {
+                    width: 7.5rem;
+                }
+            }
+        }
+    }
+}
+
+.textContainer {
+    max-width: 736px;
+    width: 100%;
+    margin-top: 1.875rem;
+
+    h2 {
+        font-family: Archivo;
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 2.625rem;
+        color: var(--white);
+        max-width: 438px;
+    }
+
+    p {
+        font-family: Poppins;
+        font-weight: 400;
+        color: var(--text-blue-base);
+        max-width: 438px;
+        margin-top: 1.5rem;
+    }
+}

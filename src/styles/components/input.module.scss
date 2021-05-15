@@ -1,0 +1,28 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.375rem;
+
+    label, input {
+        font-size: .875rem;
+        font-weight: 400;
+        font-family: Poppins;
+        color: var(--text-complementos);
+    }
+
+    input, textarea {
+        height: 3.5rem;
+        border: 1px solid #E6E6F0;
+        background: #FAFAFC;
+        border-radius: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 15px 24px;
+
+        font-size: 1rem;
+    }
+
+    textarea {
+        height: 6rem;
+    }
+
+}
