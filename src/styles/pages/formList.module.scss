@@ -119,3 +119,16 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 96%;
+        header {
+            .filterContainer {                
+                &:first-child {
+                    width: 68%;
+                }
+            }
+        }
+    }
+}

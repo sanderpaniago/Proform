@@ -50,3 +50,11 @@
         margin-top: 1.5rem;
     }
 }
+
+@media (max-width: 768px) {
+    .textContainer {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+}

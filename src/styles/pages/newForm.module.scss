@@ -258,3 +258,25 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .formContainer {
+        width: 96%;
+
+        .container {
+            padding: 3rem 2rem 0;
+        }
+
+        footer {
+            padding: 2rem 2rem;
+
+            button {
+                width: fit-content;
+                display: flex;
+                padding: 0 1.25rem;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
