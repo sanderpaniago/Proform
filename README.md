@@ -36,4 +36,4 @@ yarn dev
 
 ## 🚀 Build
 
-link para a [demo](https://form.sanderpaniago.dev/)
+link para a [demo](https://proform.sanderpaniago.dev/)
